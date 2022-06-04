@@ -49,5 +49,21 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void tictac3_Click(object sender, EventArgs e)
+        {
+            if (tictac3.Text == "")
+            {
+                tictac3.Text = Btntictac;
+                if (Btntictac == "X")
+                {
+                    Btntictac = "O";
+                }
+                else
+                {
+                    Btntictac = "X";
+                }
+            }
+        }
     }
 }
