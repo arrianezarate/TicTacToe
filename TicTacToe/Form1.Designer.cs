@@ -118,6 +118,7 @@
             this.tictac9.Size = new System.Drawing.Size(97, 72);
             this.tictac9.TabIndex = 9;
             this.tictac9.UseVisualStyleBackColor = true;
+            this.tictac9.Click += new System.EventHandler(this.tictac9_Click);
             // 
             // Form1
             // 
