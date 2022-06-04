@@ -81,5 +81,21 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void tictac5_Click(object sender, EventArgs e)
+        {
+            if (tictac5.Text == "")
+            {
+                tictac5.Text = Btntictac;
+                if (Btntictac == "X")
+                {
+                    Btntictac = "O";
+                }
+                else
+                {
+                    Btntictac = "X";
+                }
+            }
+        }
     }
 }
