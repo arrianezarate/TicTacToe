@@ -64,6 +64,7 @@
             this.tictac4.Size = new System.Drawing.Size(97, 72);
             this.tictac4.TabIndex = 3;
             this.tictac4.UseVisualStyleBackColor = true;
+            this.tictac4.Click += new System.EventHandler(this.tictac4_Click);
             // 
             // tictac2
             // 
