@@ -36,8 +36,18 @@ namespace TicTacToe
 
         private void tictac2_Click(object sender, EventArgs e)
         {
-            
-            
+            if (tictac2.Text == "")
+            {
+                tictac2.Text = Btntictac;
+                if (Btntictac == "X")
+                {
+                    Btntictac = "O";
+                }
+                else
+                {
+                    Btntictac = "X";
+                }
+            }
         }
     }
 }
