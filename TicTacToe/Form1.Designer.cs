@@ -100,6 +100,7 @@
             this.tictac7.Size = new System.Drawing.Size(97, 72);
             this.tictac7.TabIndex = 7;
             this.tictac7.UseVisualStyleBackColor = true;
+            this.tictac7.Click += new System.EventHandler(this.tictac7_Click);
             // 
             // tictac8
             // 
@@ -108,6 +109,7 @@
             this.tictac8.Size = new System.Drawing.Size(97, 72);
             this.tictac8.TabIndex = 8;
             this.tictac8.UseVisualStyleBackColor = true;
+            this.tictac8.Click += new System.EventHandler(this.tictac8_Click);
             // 
             // tictac9
             // 
