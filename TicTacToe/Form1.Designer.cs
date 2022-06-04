@@ -38,6 +38,7 @@
             this.tictac7 = new System.Windows.Forms.Button();
             this.tictac8 = new System.Windows.Forms.Button();
             this.tictac9 = new System.Windows.Forms.Button();
+            this.rstrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tictac1
@@ -124,6 +125,19 @@
             this.tictac9.UseVisualStyleBackColor = true;
             this.tictac9.Click += new System.EventHandler(this.tictac9_Click);
             // 
+            // rstrt
+            // 
+            this.rstrt.Font = new System.Drawing.Font("Britannic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rstrt.ForeColor = System.Drawing.Color.DarkGray;
+            this.rstrt.Image = ((System.Drawing.Image)(resources.GetObject("rstrt.Image")));
+            this.rstrt.Location = new System.Drawing.Point(29, 18);
+            this.rstrt.Name = "rstrt";
+            this.rstrt.Size = new System.Drawing.Size(114, 35);
+            this.rstrt.TabIndex = 10;
+            this.rstrt.Text = "RESTART GAME";
+            this.rstrt.UseVisualStyleBackColor = true;
+            this.rstrt.Click += new System.EventHandler(this.rstrt_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -131,6 +145,7 @@
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(903, 532);
+            this.Controls.Add(this.rstrt);
             this.Controls.Add(this.tictac9);
             this.Controls.Add(this.tictac8);
             this.Controls.Add(this.tictac7);
@@ -163,6 +178,7 @@
         private System.Windows.Forms.Button tictac7;
         private System.Windows.Forms.Button tictac8;
         private System.Windows.Forms.Button tictac9;
+        private System.Windows.Forms.Button rstrt;
     }
 }
 

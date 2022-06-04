@@ -546,5 +546,18 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void rstrt_Click(object sender, EventArgs e)
+        {
+            tictac1.Text = "";
+            tictac2.Text = "";
+            tictac3.Text = "";
+            tictac4.Text = "";
+            tictac5.Text = "";
+            tictac6.Text = "";
+            tictac7.Text = "";
+            tictac8.Text = "";
+            tictac9.Text = "";
+        }
     }
 }
