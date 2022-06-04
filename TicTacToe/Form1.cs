@@ -46,6 +46,10 @@ namespace TicTacToe
                         tictac8.Text = "";
                         tictac9.Text = "";
                     }
+                    if (tictac1.Text == tictac2.Text)
+                    {
+                    
+                    }
                 }
             }
         }
@@ -67,7 +71,7 @@ namespace TicTacToe
                 {
                     if (tictac3.Text == tictac1.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac2.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -100,7 +104,7 @@ namespace TicTacToe
                 {
                     if (tictac2.Text == tictac1.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac3.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -132,7 +136,7 @@ namespace TicTacToe
                 {
                     if (tictac5.Text == tictac6.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac4.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -164,7 +168,7 @@ namespace TicTacToe
                 {
                     if (tictac6.Text == tictac4.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac5.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -196,7 +200,7 @@ namespace TicTacToe
                 {
                     if (tictac5.Text == tictac4.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac6.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -228,7 +232,7 @@ namespace TicTacToe
                 {
                     if (tictac8.Text == tictac9.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac7.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -260,7 +264,7 @@ namespace TicTacToe
                 {
                     if (tictac9.Text == tictac7.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac8.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
@@ -292,7 +296,7 @@ namespace TicTacToe
                 {
                     if (tictac8.Text == tictac7.Text)
                     {
-                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        MessageBox.Show("Congrats! You win " + tictac9.Text);
                         tictac1.Text = "";
                         tictac2.Text = "";
                         tictac3.Text = "";
