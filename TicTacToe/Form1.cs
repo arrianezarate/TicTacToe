@@ -45,10 +45,22 @@ namespace TicTacToe
                         tictac7.Text = "";
                         tictac8.Text = "";
                         tictac9.Text = "";
-                    }
-                    if (tictac1.Text == tictac2.Text)
+                    }               
+                }
+                else if (tictac1.Text == tictac4.Text)
+                {
+                    if (tictac1.Text == tictac7.Text)
                     {
-                    
+                        MessageBox.Show("Congrats! You win " + tictac1.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
                     }
                 }
             }
@@ -70,6 +82,22 @@ namespace TicTacToe
                 if (tictac2.Text == tictac3.Text)
                 {
                     if (tictac3.Text == tictac1.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac2.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
+                else if (tictac2.Text == tictac5.Text)
+                {
+                    if (tictac5.Text == tictac8.Text)
                     {
                         MessageBox.Show("Congrats! You win " + tictac2.Text);
                         tictac1.Text = "";
@@ -116,6 +144,22 @@ namespace TicTacToe
                         tictac9.Text = "";
                     }
                 }
+                else if (tictac3.Text == tictac6.Text)
+                {
+                    if (tictac6.Text == tictac9.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac3.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
             }
         }
 
@@ -135,6 +179,22 @@ namespace TicTacToe
                 if (tictac4.Text == tictac5.Text)
                 {
                     if (tictac5.Text == tictac6.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac4.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
+                else if (tictac4.Text == tictac7.Text)
+                {
+                    if (tictac7.Text == tictac1.Text)
                     {
                         MessageBox.Show("Congrats! You win " + tictac4.Text);
                         tictac1.Text = "";
@@ -180,6 +240,22 @@ namespace TicTacToe
                         tictac9.Text = "";
                     }
                 }
+                else if (tictac5.Text == tictac8.Text)
+                {
+                    if (tictac8.Text == tictac2.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac5.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
             }
         }
 
@@ -199,6 +275,22 @@ namespace TicTacToe
                 if (tictac6.Text == tictac5.Text)
                 {
                     if (tictac5.Text == tictac4.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac6.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
+                else if (tictac6.Text == tictac9.Text)
+                {
+                    if (tictac9.Text == tictac3.Text)
                     {
                         MessageBox.Show("Congrats! You win " + tictac6.Text);
                         tictac1.Text = "";
@@ -244,6 +336,22 @@ namespace TicTacToe
                         tictac9.Text = "";
                     }
                 }
+                else if (tictac7.Text == tictac1.Text)
+                {
+                    if (tictac1.Text == tictac4.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac7.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
             }
         }
 
@@ -276,6 +384,22 @@ namespace TicTacToe
                         tictac9.Text = "";
                     }
                 }
+                else if (tictac8.Text == tictac2.Text)
+                {
+                    if (tictac2.Text == tictac5.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac8.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
             }
         }
 
@@ -295,6 +419,22 @@ namespace TicTacToe
                 if (tictac9.Text == tictac8.Text)
                 {
                     if (tictac8.Text == tictac7.Text)
+                    {
+                        MessageBox.Show("Congrats! You win " + tictac9.Text);
+                        tictac1.Text = "";
+                        tictac2.Text = "";
+                        tictac3.Text = "";
+                        tictac4.Text = "";
+                        tictac5.Text = "";
+                        tictac6.Text = "";
+                        tictac7.Text = "";
+                        tictac8.Text = "";
+                        tictac9.Text = "";
+                    }
+                }
+                else if (tictac9.Text == tictac3.Text)
+                {
+                    if (tictac3.Text == tictac6.Text)
                     {
                         MessageBox.Show("Congrats! You win " + tictac9.Text);
                         tictac1.Text = "";
